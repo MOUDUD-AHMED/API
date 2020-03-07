@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application programming interface</title>
+</head>
+<body>
+    <h1>API</h1>
+    <h5>Application Programming Interface</h5>
+
+    <script>
+        
+        const students = {id: 22, name: "Liton"};
+        // studentJSON = {"id":22,"name":"Liton"}
+        const studentJSON = JSON.stringify(students);
+        console.log(studentJSON);
+        const studentFormJSON = JSON.parse(studentJSON);
+        console.log(studentFormJSON);
+
+    </script>
+</body>
+</html>
